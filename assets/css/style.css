@@ -1,3 +1,11 @@
+
+.container-1{
+    background-color: hsl(351,100%,71%);
+}
+.navbar{
+    width: 74%;
+    
+}
 .white{
     color: #fff;
     width: 50px;
