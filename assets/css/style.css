@@ -67,16 +67,16 @@
     font-size: 1em;
     font-weight: 600;
 }
-.overview-2{
+.overview-2 , .team-2{
     background-color: hsl(351,100%,71%);
     color: #fff;
     padding: 6% 0;
 }
-.overview-2 h2{
+.overview-2 h2 , .team-2 h2{
     font-size: 2.4em;
     font-weight: 700;
 }
-.overview-2 .row{
+.overview-2 .row , .team-2 p , .team-2 .btn{
     margin-top: 5%;
 }
 
