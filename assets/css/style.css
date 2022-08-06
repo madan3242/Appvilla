@@ -101,7 +101,19 @@
     padding-left: 5%;
 }
 
-
+/* team */
+.team{
+    margin: 5% 0;
+}
+.team .card h2{
+    font-size: 1.2em;
+}
+.team .card p{
+    color: hsl(351,100%,71%);
+}
+.team .col-lg-4{
+    margin: 5% 0;
+}
 @media screen and (max-width : 540px) {
     body{
         text-align: center;
