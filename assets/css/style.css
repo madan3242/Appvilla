@@ -2,13 +2,48 @@
 .container-1{
     background-color: hsl(351,100%,71%);
     color: #fff;
-    width: 100%;
-    padding: 0 40px;
+    padding: 10% 0;
 }
-/* .navbar{
-    width: 74%;
-} */
+.container-1 .col-lg-5{
+    padding:  10% 0;
+}
+.container-1 .col-lg-5 h1{
+    font-weight: 700;
+}
+.container-1 .col-lg-5 p{
+    margin: 7% 0;
+}
 
-.card{
+
+.container-2{
+    background-color: hsl(0,0%,98%);
+}
+.container-2 .p-top{
+    color: hsl(351,100%,71%);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.container-2 h2{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.container-2 .p-bottom{
+    color: hsl(0,0%,58%);
+    font-size: 1.12em;
+}
+.container-2 .card{
     margin: 5% 0;
+}
+.container-2 .card h3{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 4% 0;
+}
+.container-2 .card p{
+    color: hsl(0,0%,58%);
+}
+.container-2 .btn{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    padding: 5% 6%;
 }
