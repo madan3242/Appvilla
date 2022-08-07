@@ -1,4 +1,23 @@
 
+.navbar{
+    background-color: #fff;
+}
+.navbar .nav-item{
+    padding: 0 1%;
+}
+.navbar .nav-item .nav-link{
+    color: #000;
+    font-size: 1.1em;
+}
+.navbar .nav-item .nav-link:hover{
+    color: hsl(351,100%,71%);
+}
+.navbar .btn{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+}
 .container-1{
     background-color: hsl(351,100%,71%);
     color: #fff;
