@@ -15,19 +15,21 @@
 }
 
 
-.container-2, .pricing , .testimonial{
+.container-2, .pricing , .testimonial , .blogs{
     background-color: hsl(0,0%,98%);
 }
-.container-2 .p-top, .pricing .p-top , .team .p-top , .faq .p-top{
+.container-2 .p-top, .pricing .p-top , .team .p-top , .faq .p-top , .blogs .p-top{
     color: hsl(351,100%,71%);
     font-size: 1.2em;
     font-weight: 500;
 }
-.container-2 h2 , .pricing h2 , .team h2 , .faq h2{
+
+
+.container-2 h2 , .pricing h2 , .team h2 , .faq h2 , .blogs h2{
     font-size: 2.5em;
     font-weight: 700;
 }
-.container-2 .p-bottom , .pricing .p-bottom , .team .p-bottom , .faq .p-bottom{
+.container-2 .p-bottom , .pricing .p-bottom , .team .p-bottom , .faq .p-bottom , .blogs .p-bottom{
     color: hsl(0,0%,58%);
     font-size: 1.12em;
 }
@@ -151,6 +153,18 @@
 }
 .faq .col-lg .badge{
     font-size: 1em;
+}
+
+/* blogs  */
+.blogs .text-top{
+    color: hsl(351,100%,71%);
+    font-size: 1em;
+    font-weight: 500;
+}
+.blogs .card h3{
+    font-size: 1.3em;
+    font-weight: 700;
+
 }
 
 @media screen and (max-width : 540px) {
