@@ -15,19 +15,19 @@
 }
 
 
-.container-2, .pricing{
+.container-2, .pricing , .testimonial{
     background-color: hsl(0,0%,98%);
 }
-.container-2 .p-top, .pricing .p-top , .team .p-top{
+.container-2 .p-top, .pricing .p-top , .team .p-top , .faq .p-top{
     color: hsl(351,100%,71%);
     font-size: 1.2em;
     font-weight: 500;
 }
-.container-2 h2 , .pricing h2 , .team h2{
+.container-2 h2 , .pricing h2 , .team h2 , .faq h2{
     font-size: 2.5em;
     font-weight: 700;
 }
-.container-2 .p-bottom , .pricing .p-bottom , .team .p-bottom{
+.container-2 .p-bottom , .pricing .p-bottom , .team .p-bottom , .faq .p-bottom{
     color: hsl(0,0%,58%);
     font-size: 1.12em;
 }
@@ -67,7 +67,7 @@
     font-size: 1em;
     font-weight: 600;
 }
-.overview-2 , .team-2{
+.overview-2 , .team-2 {
     background-color: hsl(351,100%,71%);
     color: #fff;
     padding: 6% 0;
@@ -113,6 +113,34 @@
 }
 .team .col-lg-4{
     margin: 5% 0;
+}
+.testimonial{
+    padding: 15% 0;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial .testimonial-brand{
+    width: 20%;
+    margin-bottom: 5%;
+}
+.testimonial .testimonial-brand-1{
+    width: 35.2%;
+}
+.testimonial .testimonial-img{
+    width: 8%;
+    border-radius: 50%;
+}
+.testimonial .testi-1{
+    position: absolute;
+    width: 15%;
+    right: -100px;
+    top: 0px;
+}
+.testimonial .testi-2{
+    position: absolute;
+    width: 15%;
+    left: -100px;
+    bottom: 0px;
 }
 @media screen and (max-width : 540px) {
     body{
