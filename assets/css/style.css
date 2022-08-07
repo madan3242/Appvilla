@@ -142,6 +142,17 @@
     left: -100px;
     bottom: 0px;
 }
+
+/* faq  */
+.faq .col-lg .btn{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.faq .col-lg .badge{
+    font-size: 1em;
+}
+
 @media screen and (max-width : 540px) {
     body{
         text-align: center;
