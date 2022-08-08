@@ -196,7 +196,55 @@ footer{
     color: hsl(216,13%,84%);
     padding: 5% 0;
 }
+footer .col-lg-3 img{
+    padding-bottom: 3%;
+}
+footer .col-lg-3 i{
+    padding: 3% 2%;
+}
+footer .col-lg-3 h3{
+    font-size: 1.3em;
+    padding: 3% 0;
 
+}
+footer ul{
+    padding-left: 0%;
+}
+footer ul li{
+    list-style: none;
+    padding: 2% 0;
+}
+
+footer .col-lg-3 i:hover , footer ul li:hover{
+    color: hsl(351,100%,71%);
+}
+
+footer .card{
+    border: 1px solid hsl(216,13%,84%);
+    background-color: hsl(210,67%,9%);
+    color: hsl(216,13%,84%);
+    margin: 4% 0;
+    padding: 1.5% 4%;
+}
+footer form{
+    
+}
+footer form input{
+    width: 60%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: hsl(210,19%,27%);
+    color: #fff;
+}
+footer form .btn{
+    /* width: 25%; */
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+}
+footer form .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
 @media screen and (max-width : 540px) {
     body{
         text-align: center;
