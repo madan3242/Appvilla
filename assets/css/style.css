@@ -293,6 +293,31 @@ breadcrumb */
 
 
 
+.contact-form{
+    background-color: hsl(351,100%,71%);
+}
+.contact-form form{
+    margin: 5%;
+    padding: 5%;
+    background-color: #fff;
+}
+.contact-form form .form-control{
+    background-color: hsl(0,0%,98%);
+}
+.contact-form form .btn{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+}
+.contact-form form .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.contact-form .form-left{
+    padding: 5%;
+}
+.contact-form .form-right{
+    padding: 5%;
+}
 
 @media screen and (max-width : 540px) {
     body{
