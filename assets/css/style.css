@@ -304,8 +304,14 @@ breadcrumb */
 .contact-form .form-left h2{
     font-weight: 700;
 }
+.contact-form .form-left p{
+    font-weight: 500;
+}
 .contact-form .form-left .btn{
     color: #fff;
+}
+.contact-form .form-right{
+    padding: 5% 0;
 }
 .contact-form form{
     padding: 5%;
@@ -322,9 +328,6 @@ breadcrumb */
 .contact-form form .btn:hover{
     background-color: #000;
     color: #fff;
-}
-.contact-form .form-left{
-    /* padding: 5%; */
 }
 
 @media screen and (max-width : 540px) {
