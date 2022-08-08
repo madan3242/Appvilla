@@ -295,11 +295,22 @@ breadcrumb */
 
 .contact-form{
     background-color: hsl(351,100%,71%);
+    padding: 8% 0;
+}
+.contact-form .form-left{
+    padding: 5% 0;
+    color: #fff;
+}
+.contact-form .form-left h2{
+    font-weight: 700;
+}
+.contact-form .form-left .btn{
+    color: #fff;
 }
 .contact-form form{
-    margin: 5%;
     padding: 5%;
     background-color: #fff;
+    border-radius: 2%;
 }
 .contact-form form .form-control{
     background-color: hsl(0,0%,98%);
@@ -313,10 +324,7 @@ breadcrumb */
     color: #fff;
 }
 .contact-form .form-left{
-    padding: 5%;
-}
-.contact-form .form-right{
-    padding: 5%;
+    /* padding: 5%; */
 }
 
 @media screen and (max-width : 540px) {
