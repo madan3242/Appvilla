@@ -3,7 +3,7 @@
     background-color: #fff;
 }
 .navbar .nav-item{
-    padding: 0 1%;
+    margin: 0 2%;
 }
 .navbar .nav-item .nav-link{
     color: #000;
@@ -15,9 +15,15 @@
 .navbar .btn{
     background-color: hsl(351,100%,71%);
     color: #fff;
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0 2%;
+    width: 100%;
 }
+.navbar .btn:hover{
+    background-color: #000;
+}
+
 .container-1{
     background-color: hsl(351,100%,71%);
     color: #fff;
@@ -183,7 +189,12 @@
 .blogs .card h3{
     font-size: 1.3em;
     font-weight: 700;
+}
 
+footer{
+    background-color: hsl(210,67%,9%);
+    color: hsl(216,13%,84%);
+    padding: 5% 0;
 }
 
 @media screen and (max-width : 540px) {

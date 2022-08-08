@@ -21,14 +21,14 @@
     <script src="https://kit.fontawesome.com/2ae38f06fa.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="">
-        <nav class="navbar navbar-expand-lg fixed-top py-4">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-4">
             <div class="navbar-brand">
                 <a href="./index.html"><img class="w-50" src="./assets/images/logo/logo.svg" alt=""></a>
             </div>
-            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
@@ -36,11 +36,17 @@
                     <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contat">Contact</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" href="#blog">Blog</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Blog Grid Sidebar</a>
+                            <a class="dropdown-item" href="#">Blog Single</a>
+                            <a class="dropdown-item" href="#">Blog Single Sibebar</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
-                <div>
-                    <a class="btn btn-lg" role="button" href="">Get It Now</a>
+                <div class="mr-4 d-block">
+                    <a class="btn" role="button" href="">Get It Now</a>
                 </div>
             </div>
         </nav>
@@ -711,7 +717,19 @@
     </section>
 
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <address>
+                        <img class="w-50" src="./assets/images/logo/white-logo.svg" alt="">
+                        <p>Making the world a better place through constructing elegant hierarchies.</p>
+                    </address>
+                </div>
+                <div class="col-lg-9">
 
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
